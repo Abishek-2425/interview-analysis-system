@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Streamlit local files
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python egg / distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# PyInstaller / packaging
+*.spec
+
+# Coverage / testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Audio temporary files
+temp_audio.*

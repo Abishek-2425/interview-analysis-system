@@ -1,0 +1,8 @@
+streamlit>=1.25.0
+pandas>=2.0.3
+plotly>=6.0.0
+textblob>=0.17.1
+spacy>=3.6.0
+torch>=2.1.0
+openai-whisper>=20230314
+soundfile>=0.12.1

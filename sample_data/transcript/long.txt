@@ -1,0 +1,7 @@
+Uh, I’d like to begin by talking about my experience in software development. I started learning coding in high school, and, you know, I immediately found it fascinating. I experimented with HTML, CSS, and JavaScript, and gradually moved on to Python. During college, I joined multiple projects, including web apps and small automation scripts. Um, one project involved creating a task scheduler app, where I handled backend logic and coordinated with the frontend team. This experience taught me, like, how important communication and planning are.
+
+I also completed an internship at a mid-sized tech company, where I, uh, automated repetitive tasks and worked on testing APIs. I learned about debugging, handling exceptions, and documenting code properly. These experiences reinforced my understanding of clean code practices and collaboration in a real work environment.
+
+Over the past few years, I have improved my technical skills in Python, JavaScript, SQL, and basic DevOps practices. I regularly contribute to small open-source projects, which helps me stay updated and, um, learn from other developers’ approaches.
+
+In terms of soft skills, I focus on teamwork, active listening, and adaptability. I try to participate meaningfully in team discussions and provide constructive feedback. Overall, combining technical expertise with soft skills enables me to contribute effectively to any team I join.

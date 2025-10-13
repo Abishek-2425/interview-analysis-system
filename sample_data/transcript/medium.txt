@@ -1,0 +1,5 @@
+So, uh, I started my journey in software development during high school. I, you know, tried a few programming languages, but I really got interested in Python and JavaScript. During college, I worked on multiple small projects, like creating task management apps and websites. Uh, in one project, I was responsible for backend development, while collaborating with frontend developers. I learned that communication is key, and teamwork really matters.
+
+I also did an internship at a mid-sized company. There, I, um, worked on automating some scripts, testing APIs, and documenting processes. I realized that attention to detail and documentation are just as important as writing code itself. Sometimes, you know, small bugs can lead to bigger issues if not caught early.
+
+Apart from technical skills, I focus on improving soft skills like communication, adaptability, and time management. I actively participate in team meetings, offer suggestions, and try to learn from others’ experience. Overall, I believe combining technical expertise with strong interpersonal skills makes me a better contributor to any team.

@@ -1,0 +1,12 @@
+123 numbers shouldn't break anything.
+
+Uh, I really like coding 😃💻, but sometimes weird things happen… like � � � characters appearing randomly. 
+Also, I tried to open some files and got errors: Ã©, â, ï, ø, ñ.  
+Basically, during an internship, I worked on APIs, but sometimes responses were “???” or null.  
+
+You know, sometimes filler words are: um, uh, like… and sometimes special symbols appear: ©, ®, ™, ✓.  
+
+Random gibberish: qweoiu123*&^%$#@!~`  
+Another line with weird Unicode: 漢字, кириллица, عربى  
+
+End of transcript… hopefully your parser handles this gracefully!
