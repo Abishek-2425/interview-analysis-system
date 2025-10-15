@@ -45,37 +45,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.sidebar.subheader("Load Text Transcripts")
-sample_files = {
-    "Very Short Transcript": "sample_data/transcript/very_short.txt",
-    "Short Transcript": "sample_data/transcript/short.txt",
-    "Medium Transcript": "sample_data/transcript/medium.txt",
-    "Corrupt Transcript": "sample_data/transcript/corrupt.txt",
-    "Long Transcript": "sample_data/transcript/long.txt",
-    "Very Long Transcript": "sample_data/transcript/very_long.txt",
-}
-
-sample_text = ""
-for name, path in sample_files.items():
-    if st.sidebar.button(name):
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                sample_text = f.read()
-        except Exception as e:
-            st.sidebar.error(f"Error loading {name}: {e}")
-
-st.sidebar.subheader("Load Sample Audio")
-sample_audios = {
-    "Sample Audio 1": "sample_data/audio/audio_1.mp3",
-    "Sample Audio 2": "sample_data/audio/audio_2.mp3",
-    "Sample Audio 3": "sample_data/audio/audio_3.mp3",
-}
-
-audio_source = None
-for name, path in sample_audios.items():
-    if st.sidebar.button(name):
-        audio_source = path
-
 col1, col2 = st.columns([1, 1])
 
 with col1:
@@ -86,10 +55,11 @@ with col2:
         "🎤 Upload audio file (.mp3, .wav, .m4a)", type=["mp3", "wav", "m4a"]
     )
 
+audio_source = None
 if uploaded_audio_file:
     audio_source = uploaded_audio_file
 
-text_input_area = st.text_area("Or paste transcript here:", height=200, value=sample_text)
+text_input_area = st.text_area("Or paste transcript here:", height=200)
 
 audio_text = ""
 if audio_source:
