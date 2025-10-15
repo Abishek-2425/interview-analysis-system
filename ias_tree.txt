@@ -1,0 +1,28 @@
+├── analysis/
+│   ├── feedback_generator.py
+│   ├── filler_check.py
+│   ├── keyword_extractor.py
+│   ├── sentiment_check.py
+│   ├── utils.py
+│   └── __init__.py
+├── app.py
+├── final.wav
+├── final_mix.wav
+├── ias_tree.txt
+├── merge.py
+├── README.md
+├── requirements.txt
+└── sample_data/
+    ├── audio/
+    │   ├── audio_1.mp3
+    │   ├── audio_2.mp3
+    │   ├── audio_3.mp3
+    │   ├── test_mic.wav
+    │   └── test_yt.wav
+    └── transcript/
+        ├── corrupt.txt
+        ├── long.txt
+        ├── medium.txt
+        ├── short.txt
+        ├── very_long.txt
+        └── very_short.txt
